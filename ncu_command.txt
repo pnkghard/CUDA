@@ -1,0 +1,1 @@
+udo /usr/local/NVIDIA-Nsight-Compute/ncu -o profile --kernel-name matmul --launch-skip 0 --launch-count 1 "./a.out"
